@@ -9,7 +9,7 @@
         .then(response => response.json())
         .then(data => console.log(data.name));
         */
-let pokemon = "zapdos"
+let pokemon = "magikarp"
 const pokeFigure = document.querySelector(".poke-figure");
 function capitalizeFirstChar(string){
     return string[0].toUpperCase() + string.slice(1)

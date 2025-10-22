@@ -1,5 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
+* {
+    box-sizing: border-box;
+}
 body {
+    display: flex;
     font-family: "DotGothic16", sans-serif;
+    font-size: small;
+    min-height: 100vh;
+
+}
+.container {
+    display: flex;
+}
+img {
+    background-color: whitesmoke;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #f3f1f0;
+    box-shadow: 0 0 0 1px black;
+}
+figcaption {
+    display:flex;
+    background-color: rgb(68, 172, 68);
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    box-shadow: 0 0 0 5px rgb(68, 172, 68);
+    border-radius: 5px;
+    padding: 5px;
+}
+.pokedex {
+    background-color: rgb(210, 36, 42);
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    position: relative;
+    z-index: 1;
+
+}
+.side-nav {
+    width: 100px;
+    height: 200px;
+    position: sticky;
+    z-index: 10;
+    top: 1;
+    left: 0;
+    background-color: aqua;
+    overflow-x: hidden;
+    align-self: flex-start;
 }
